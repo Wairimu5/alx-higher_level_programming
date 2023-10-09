@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-# a function that replaces an element in a list without modifying the original list
-
 def new_in_list(my_list, idx, element):
     # Check if idx is out of range or negative
     if idx < 0 or idx >= len(my_list):
