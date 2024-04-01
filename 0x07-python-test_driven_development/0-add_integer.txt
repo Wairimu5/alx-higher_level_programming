@@ -1,4 +1,4 @@
-# Test Case 1: Both integers
+i# Test Case 1: Both integers
 >>> add_integer(2, 3)
 5
 
