@@ -1,8 +1,12 @@
 #!/usr/bin/node
-const args = process.argv.slice(2).map(Number);
-if (args.length <= 1) {
+
+const process = require('process');
+const args = process.argv;
+
+if (args.length === 2 || args.length === 3) {
   console.log(0);
 } else {
   args.sort((a, b) => a - b);
-  console.log(args[args.length - 2]);
+  const number = args.length;
+  console.log(args[number - 2]);
 }
